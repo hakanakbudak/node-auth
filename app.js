@@ -7,9 +7,7 @@ const User = require("./model/user");
 const auth = require("./middleware/auth");
 
 const app = express();
-
 app.use(express.json());
-
 // Logic goes here
 
 
